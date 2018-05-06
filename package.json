@@ -1,0 +1,18 @@
+{
+  "name": "librealminfo-scraper",
+  "version": "0.1.0",
+  "description": "Scrapes data from the Battle.net Developer API for LibRealmInfo.",
+  "main": "index.js",
+  "author": "Phanx <addons@phanx.net>",
+  "license": "Zlib",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^5.0.0",
+    "jsonfile": "^4.0.0",
+    "node-fetch": "^2.0.0",
+    "sleep": "^5.1.1"
+  }
+}
