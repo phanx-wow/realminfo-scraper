@@ -1,12 +1,36 @@
 exports.SLEEP_TIME = 12 // delay to enforce between API calls
 
 exports.regions = [
-	//"cn", // no API for China :(
+	// "cn", // there is now an API but it doesn't allow me access
 	"eu",
 	"kr",
 	"tw",
 	"us",
 ]
+
+exports.apiDomains = {
+	cn: "gateway.battlenet.com.cn",
+	eu: "eu.api.blizzard.com",
+	kr: "kr.api.blizzard.com",
+	tw: "tw.api.blizzard.com",
+	us: "us.api.blizzard.com",
+}
+
+exports.authDomains = {
+	cn: "www.battlenet.com.cn",
+	eu: "us.battle.net",
+	kr: "us.battle.net",
+	tw: "us.battle.net",
+	us: "us.battle.net",
+}
+
+exports.authRegions = {
+	cn: "cn",
+	eu: "us",
+	kr: "us",
+	tw: "us",
+	us: "us",
+},
 
 exports.timezones = {
 	"America/Chicago": "CST", // US Central

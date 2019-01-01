@@ -1,19 +1,15 @@
 const fetch = require("node-fetch")
 const sleep = require("sleep").msleep
 
-const { SLEEP_TIME, localesInGame, localesWithUnderscores, timezones } = require("./constants.js")
+const { SLEEP_TIME, apiDomains, localesInGame, localesWithUnderscores, timezones } = require("./constants.js")
 
-const getRealm = async (accessToken, region, id) => {
-	const url = "https://" + region + ".api.battle.net/data/wow/realm/"
-		+ id
-		+ "?namespace=dynamic-" + region
-		+ "&access_token=" + accessToken
-
+const getRealm = async (requestOptions, region, id) => {
 	sleep(SLEEP_TIME)
 
-	const res = await fetch(url)
+	const url = "https://" + apiDomains[region] + "/data/wow/realm/" + id
+	const res = await fetch(url, requestOptions)
 	const realm = await res.json()
-	if (!realm.name) return console.log("ERROR: response missing name")
+	if (!realm.name) return console.log("ERROR: response missing name:", json)
 
 	const locale = localesInGame[realm.locale] || realm.locale
 
@@ -28,37 +24,40 @@ const getRealm = async (accessToken, region, id) => {
 	}
 }
 
-const getRealmIDsForRegion = async (accessToken, region) => {
-	const url = "https://" + region + ".api.battle.net/data/wow/realm/"
-		+ "?namespace=dynamic-" + region
-		+ "&access_token=" + accessToken
+const getRealmIDsForRegion = async (requestOptions, region) => {
+	const url = "https://" + apiDomains[region] + "/data/wow/realm/"
 
 	sleep(SLEEP_TIME)
 
-	const res = await fetch(url)
+	const res = await fetch(url, requestOptions)
 	const json = await res.json()
-	if (!json.realms) return console.log("ERROR: response missing realms")
+	if (!json.realms) return console.log("ERROR: response missing realms:", json)
 
 	return json.realms.map(realm => realm.id)
 }
 
 const getRealmsForRegion = async (accessToken, region) => {
 	const list = []
+	const requestOptions = {
+		headers: {
+			"Authorization": "Bearer " + accessToken,
+			"Battlenet-Namespace": "dynamic-" + region,
+		}
+	}
 
 	console.log(" ")
 	console.log("Getting realm IDs for region", region)
 
-	const ids = await getRealmIDsForRegion(accessToken, region)
+	const ids = await getRealmIDsForRegion(requestOptions, region)
+	if (!ids) return
 
 	console.log("   Realms:", ids.length)
 
-	for (let j = 0; j < ids.length; j++) {
-		const id = ids[j]
-
+	for (const id of ids) {
 		console.log(" ")
 		console.log("Getting info for realm", id)
 
-		const item = await getRealm(accessToken, region, id)
+		const item = await getRealm(requestOptions, region, id)
 
 		console.log("   Name    :", item.name)
 		console.log("   English :", item.englishName)
