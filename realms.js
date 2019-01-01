@@ -15,11 +15,13 @@ const getRealm = async (accessToken, region, id) => {
 	const realm = await res.json()
 	if (!realm.name) return console.log("ERROR: response missing name")
 
+	const locale = localesInGame[realm.locale] || realm.locale
+
 	return {
 		id          : id,
 		englishName : realm.name.en_US,
-		locale      : localesInGame[realm.locale] || realm.locale,
-		name        : realm.name[ localesWithUnderscores[realm.locale] ],
+		locale      : locale,
+		name        : realm.name[ localesWithUnderscores[locale] ],
 		region      : region.toUpperCase(),
 		rules       : realm.type.name.en_US,
 		timezone    : timezones[realm.timezone],

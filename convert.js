@@ -12,7 +12,6 @@ console.log("Converting realm data...")
 
 realmData.sort(sortById).forEach(realm => {
 	let { id, englishName, locale, name, region, rules, timezone } = realm
-	if (!name) name = englishName // special case for "Aggra (Português)"
 	if (region === "US") {
 		// [id] = "name,rules,locale,region,timezone"
 		output.push(`[${id}]="${name},${rules},${locale},${region},${timezone}",`)
