@@ -1,15 +1,16 @@
-This is a tool to scrape data from the Battle.net Developer API for use in the [LibRealmInfo](https://github.com/phanx-wow/LibRealmInfo) library for World of Warcraft.
+This is a tool to scrape World of Warcraft realm and realm-connection data from the Battle.net Developer API, primarily for use in the [LibRealmInfo](https://github.com/phanx-wow/LibRealmInfo) library.
 
 ### Usage
 
-1. Run `yarn start` or `npm start` or `node index.js`
-2. See the generated `connectionData.json` and `realmData.json` files
+1. Run `yarn start` or `npm start` or `node index.js`.
+2. See the generated `connectionData.json` and `realmData.json` files in the `output` directory.
 
-Total running time is over 5 minutes, as a delay of 12 ms is enforced between API calls in order to comply with the "100 requests per second" limit.
+Total running time is over 8 minutes, as a delay of 12 ms is enforced between API calls in order to comply with the "100 requests per second" limit for free accounts.
 
-### Future
+#### For use in LibRealmInfo:
 
-- Convert the output to a format directly usable in LibResInfo
+1. Optionally, run `yarn convert` or `npm convert` or `node convert.js`.
+2. See the generated `data.lua` file in the `output` directory.
 
 ### Requirements
 
@@ -22,3 +23,7 @@ Total running time is over 5 minutes, as a delay of 12 ms is enforced between AP
 	CLIENT_ID=<your Battle.net key>
 	CLIENT_SECRET=<your Battle.net secret>
 	```
+
+### License
+
+Zlib license. See the `LICENSE` file for the full text.

@@ -1,12 +1,13 @@
 {
-  "name": "librealminfo-scraper",
-  "version": "0.1.0",
+  "name": "wow-realminfo-scraper",
+  "version": "0.2.0",
   "description": "Scrapes data from the Battle.net Developer API for LibRealmInfo.",
   "main": "index.js",
   "author": "Phanx <addons@phanx.net>",
   "license": "Zlib",
   "private": true,
   "scripts": {
+    "convert": "node convert.js",
     "start": "node index.js"
   },
   "dependencies": {
