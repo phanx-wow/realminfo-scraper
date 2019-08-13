@@ -2,6 +2,7 @@
 require("dotenv").config()
 const fetch = require("node-fetch")
 const jsonfile = require("jsonfile")
+const fs = require("fs")
 
 // Import local dependencies
 const { authDomains, authRegions, regions } = require("./constants")
@@ -13,6 +14,13 @@ const apiKey = process.env.CLIENT_ID
 const clientSecret = process.env.CLIENT_SECRET
 if (!apiKey) return console.log("ERROR: missing CLIENT_ID in .env")
 if (!clientSecret) return console.log("ERROR: missing CLIENT_SECRET in .env")
+
+// Create output directory
+const createOutputDir = async () => {
+	if (!await fs.existsSync("output")) {
+		await fs.mkdirSync("output")
+	}
+}
 
 // Get valid API access tokens for US and China
 const checkAccessToken = async (region, token) => {
@@ -35,7 +43,12 @@ const getAccessToken = async (region) => {
 }
 
 const getAccessTokens = async () => {
-	const cached = jsonfile.readFileSync("output/accessToken.json", { throws: false })
+	let cached
+	try {
+		cached = jsonfile.readFileSync("output/accessToken.json", { throws: false })
+	} catch(e) {
+		// File not yet created
+	}
 	const tokens = {}
 
 	const uniqueRegions = [...new Set(Object.values(authRegions))]
@@ -45,7 +58,7 @@ const getAccessTokens = async () => {
 			if (ok) tokens[region] = cached[region]
 		}
 		if (!tokens[region]) {
-			tokens[region] = getAccessToken(region)
+			tokens[region] = await getAccessToken(region)
 		}
 	}
 
@@ -109,16 +122,22 @@ async function main () {
 	console.log("API Key     :", apiKey)
 	console.log("API Secret  :", clientSecret ? "OK" : "MISSING")
 
-	const accessTokens = await getAccessTokens()
-	console.log("Access Tokens:", accessTokens)
+	await createOutputDir();
 
-	const realmData = await getRealms(accessTokens)
-	if (!realmData) return console.log("ERROR: getRealms returned nothing")
-	writeJSON("output/realmData.json", realmData)
+	try {
+		const accessTokens = await getAccessTokens()
+		console.log("Access Tokens:", accessTokens)
 
-	const connectionData = await getConnections(accessTokens)
-	if (!connectionData) return console.log("ERROR: getRealms returned nothing")
-	writeJSON("output/connectionData.json", connectionData)
+		const realmData = await getRealms(accessTokens)
+		if (!realmData) return console.log("ERROR: getRealms returned nothing")
+		writeJSON("output/realmData.json", realmData)
+
+		const connectionData = await getConnections(accessTokens)
+		if (!connectionData) return console.log("ERROR: getRealms returned nothing")
+		writeJSON("output/connectionData.json", connectionData)
+	} catch (e) {
+		console.error(e);
+	}
 
 	console.log(" ")
 }
