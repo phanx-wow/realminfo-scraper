@@ -36,7 +36,7 @@ const getAccessToken = async (region) => {
 		+ "&client_id=" + apiKey
 		+ "&client_secret=" + clientSecret
 
-	const res = await fetch(url)
+	const res = await fetch(url, { method: 'POST' })
 	const json = await res.json()
 	if (json.error) return console.error("ERROR: error getting access token: " + json.error)
 	return json.access_token

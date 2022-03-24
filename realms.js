@@ -57,16 +57,28 @@ const getRealmsForRegion = async (accessToken, region) => {
 		console.log(" ")
 		console.log("Getting info for realm", id)
 
-		const item = await getRealm(requestOptions, region, id)
+		let item = null;
+		for (let tries = 1; tries <= 3; tries++) {
+			try {
+				item = await getRealm(requestOptions, region, id)
+				break
+			} catch (e) {
+				console.warn("Failed to get realm info. Retrying.")
+			}
+		}
 
-		console.log("   Name    :", item.name)
-		console.log("   English :", item.englishName)
-		console.log("   Rules   :", item.rules)
-		console.log("   Locale  :", item.locale)
-		console.log("   Region  :", item.region)
-		console.log("   Timezone:", item.timezone)
+		if (item) {
+			console.log("   Name    :", item.name)
+			console.log("   English :", item.englishName)
+			console.log("   Rules   :", item.rules)
+			console.log("   Locale  :", item.locale)
+			console.log("   Region  :", item.region)
+			console.log("   Timezone:", item.timezone)
 
-		list.push(item)
+			list.push(item)
+		} else {
+			console.error("Failed to get realm info. Giving up.")
+		}
 	}
 
 	console.log(" ")

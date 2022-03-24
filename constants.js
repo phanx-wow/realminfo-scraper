@@ -1,4 +1,4 @@
-exports.SLEEP_TIME = 12 // delay to enforce between API calls
+exports.SLEEP_TIME = 15 // delay to enforce between API calls
 
 exports.regions = [
 	// "cn", // there is now an API but it doesn't allow me access
