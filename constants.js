@@ -1,7 +1,7 @@
 exports.SLEEP_TIME = 15 // delay to enforce between API calls
 
 exports.regions = [
-	// "cn", // there is now an API but it doesn't allow me access
+	// "cn", // CN API is not implemented. Will be using static data instead
 	"eu",
 	"kr",
 	"tw",
@@ -32,14 +32,27 @@ exports.authRegions = {
 	us: "us",
 },
 
+exports.namespaces = {
+	'dynamic': '',
+	'dynamic-classic1x': 'classic1x',
+	'dynamic-classic': 'classic',
+},
+
+exports.ruleCodes = {
+	'Roleplaying': 'RP',
+	'Normal': 'PvE',
+	'PvP': 'PvP',
+	'PvP RP': 'PvP RP',
+},
+
 exports.timezones = {
 	"America/Chicago": "CST", // US Central
 	"America/Denver": "MST", // US Mountain
 	"America/Los_Angeles": "PST", // US Pacific
 	"America/New_York": "EST", // US Eastern
-	"America/Sao_Paolo": "BRT", // Brazil
+	"America/Sao_Paulo": "BRT", // Brazil
 	"Asia/Seoul": "", // Korea
-	"Asia/Taipei": "", // Hong Kong
+	"Asia/Taipei": "", // Taiwan
 	"Australia/Melbourne": "AEST", // Oceanic
 	"Europe/Paris": "", // EU Central
 }

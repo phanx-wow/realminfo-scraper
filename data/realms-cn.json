@@ -1,0 +1,4088 @@
+[
+	{
+		"id": 700,
+		"englishName": "Aggramar",
+		"locale": "zhCN",
+		"name": "阿格拉玛",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 703,
+		"englishName": "Aszune",
+		"locale": "zhCN",
+		"name": "艾苏恩",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 704,
+		"englishName": "Anvilmar",
+		"locale": "zhCN",
+		"name": "安威玛尔",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 705,
+		"englishName": "Uldaman",
+		"locale": "zhCN",
+		"name": "奥达曼",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 706,
+		"englishName": "Alleria",
+		"locale": "zhCN",
+		"name": "奥蕾莉亚",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 707,
+		"englishName": "Silver Hand",
+		"locale": "zhCN",
+		"name": "白银之手",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 708,
+		"englishName": "Alter of Storms",
+		"locale": "zhCN",
+		"name": "暴风祭坛",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 709,
+		"englishName": "Booty Bay",
+		"locale": "zhCN",
+		"name": "藏宝海湾",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 710,
+		"englishName": "Dustwind Gulch",
+		"locale": "zhCN",
+		"name": "尘风峡谷",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 711,
+		"englishName": "Danath Trollbane",
+		"locale": "zhCN",
+		"name": "达纳斯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 712,
+		"englishName": "Destromath",
+		"locale": "zhCN",
+		"name": "迪托马斯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 714,
+		"englishName": "Valley of Kings",
+		"locale": "zhCN",
+		"name": "国王之谷",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 715,
+		"englishName": "Black Dragonflight",
+		"locale": "zhCN",
+		"name": "黑龙军团",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 716,
+		"englishName": "Blackrock",
+		"locale": "zhCN",
+		"name": "黑石尖塔",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 717,
+		"englishName": "Red Dragonflight",
+		"locale": "zhCN",
+		"name": "红龙军团",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 718,
+		"englishName": "Echo Ridge",
+		"locale": "zhCN",
+		"name": "回音山",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 719,
+		"englishName": "Kilrogg",
+		"locale": "zhCN",
+		"name": "基尔罗格",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 720,
+		"englishName": "Khardros",
+		"locale": "zhCN",
+		"name": "卡德罗斯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 721,
+		"englishName": "Lord Kazzak",
+		"locale": "zhCN",
+		"name": "卡扎克",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 723,
+		"englishName": "Kurdran",
+		"locale": "zhCN",
+		"name": "库德兰",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 725,
+		"englishName": "Blue Dragonflight",
+		"locale": "zhCN",
+		"name": "蓝龙军团",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 726,
+		"englishName": "Thunderlord",
+		"locale": "zhCN",
+		"name": "雷霆之王",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 727,
+		"englishName": "Flame Crest",
+		"locale": "zhCN",
+		"name": "烈焰峰",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 729,
+		"englishName": "Rhonin",
+		"locale": "zhCN",
+		"name": "罗宁",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 730,
+		"englishName": "Lothar",
+		"locale": "zhCN",
+		"name": "洛萨",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 731,
+		"englishName": "Madoran",
+		"locale": "zhCN",
+		"name": "玛多兰",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 732,
+		"englishName": "Magtheridon",
+		"locale": "zhCN",
+		"name": "玛瑟里顿",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 734,
+		"englishName": "Neltharion",
+		"locale": "zhCN",
+		"name": "奈萨里奥",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 736,
+		"englishName": "Gnomeregan",
+		"locale": "zhCN",
+		"name": "诺莫瑞根",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 737,
+		"englishName": "Prestor",
+		"locale": "zhCN",
+		"name": "普瑞斯托",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 738,
+		"englishName": "Burning Steppes",
+		"locale": "zhCN",
+		"name": "燃烧平原",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 739,
+		"englishName": "Sargeras",
+		"locale": "zhCN",
+		"name": "萨格拉斯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 740,
+		"englishName": "Bronzebeard",
+		"locale": "zhCN",
+		"name": "山丘之王",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 741,
+		"englishName": "Deathwing",
+		"locale": "zhCN",
+		"name": "死亡之翼",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 742,
+		"englishName": "Thoradin",
+		"locale": "zhCN",
+		"name": "索拉丁",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 743,
+		"englishName": "Thaurissan",
+		"locale": "zhCN",
+		"name": "索瑞森",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 744,
+		"englishName": "Bronze Dragonflight",
+		"locale": "zhCN",
+		"name": "铜龙军团",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 745,
+		"englishName": "Turalyon",
+		"locale": "zhCN",
+		"name": "图拉扬",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 746,
+		"englishName": "Ysera",
+		"locale": "zhCN",
+		"name": "伊瑟拉",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 748,
+		"englishName": "Agamaggan",
+		"locale": "zhCN",
+		"name": "阿迦玛甘",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 749,
+		"englishName": "Archimonde",
+		"locale": "zhCN",
+		"name": "阿克蒙德",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 750,
+		"englishName": "Azgalor",
+		"locale": "zhCN",
+		"name": "埃加洛尔",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 751,
+		"englishName": "Azuregos",
+		"locale": "zhCN",
+		"name": "埃苏雷格",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 753,
+		"englishName": "Azshara",
+		"locale": "zhCN",
+		"name": "艾萨拉",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 754,
+		"englishName": "Aessina",
+		"locale": "zhCN",
+		"name": "艾森娜",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 755,
+		"englishName": "Astranaar",
+		"locale": "zhCN",
+		"name": "爱斯特纳",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 756,
+		"englishName": "Shadowmoon",
+		"locale": "zhCN",
+		"name": "暗影之月",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 757,
+		"englishName": "Al'Akir",
+		"locale": "zhCN",
+		"name": "奥拉基尔",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 758,
+		"englishName": "Frostmane",
+		"locale": "zhCN",
+		"name": "冰霜之刃",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 760,
+		"englishName": "Dath'Remar",
+		"locale": "zhCN",
+		"name": "达斯雷玛",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 761,
+		"englishName": "Hellscream",
+		"locale": "zhCN",
+		"name": "地狱咆哮",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 762,
+		"englishName": "Fel Rock",
+		"locale": "zhCN",
+		"name": "地狱之石",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 764,
+		"englishName": "Stormrage",
+		"locale": "zhCN",
+		"name": "风暴之怒",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 765,
+		"englishName": "Windrunner",
+		"locale": "zhCN",
+		"name": "风行者",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 766,
+		"englishName": "Explorer's League",
+		"locale": "zhCN",
+		"name": "弗塞雷迦",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 767,
+		"englishName": "Gorgonnash",
+		"locale": "zhCN",
+		"name": "戈古纳斯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 768,
+		"englishName": "Hyjal",
+		"locale": "zhCN",
+		"name": "海加尔",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 769,
+		"englishName": "Doomhammer",
+		"locale": "zhCN",
+		"name": "毁灭之锤",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 770,
+		"englishName": "Firetree",
+		"locale": "zhCN",
+		"name": "火焰之树",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 771,
+		"englishName": "Khadgar",
+		"locale": "zhCN",
+		"name": "卡德加",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 772,
+		"englishName": "Ravencrest",
+		"locale": "zhCN",
+		"name": "拉文凯斯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 773,
+		"englishName": "Malfurion",
+		"locale": "zhCN",
+		"name": "玛法里奥",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 774,
+		"englishName": "Maiev Shadowsong",
+		"locale": "zhCN",
+		"name": "玛维·影歌",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 775,
+		"englishName": "Mal'Ganis",
+		"locale": "zhCN",
+		"name": "梅尔加尼",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 776,
+		"englishName": "Dream Bough",
+		"locale": "zhCN",
+		"name": "梦境之树",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 778,
+		"englishName": "Neptulon",
+		"locale": "zhCN",
+		"name": "耐普图隆",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 780,
+		"englishName": "Whisperwind",
+		"locale": "zhCN",
+		"name": "轻风之语",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 781,
+		"englishName": "Xavian",
+		"locale": "zhCN",
+		"name": "夏维安",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 782,
+		"englishName": "Cenarius",
+		"locale": "zhCN",
+		"name": "塞纳留斯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 784,
+		"englishName": "Lightning's Blade",
+		"locale": "zhCN",
+		"name": "闪电之刃",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 786,
+		"englishName": "Stonetalon Peak",
+		"locale": "zhCN",
+		"name": "石爪峰",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 787,
+		"englishName": "Tyrande",
+		"locale": "zhCN",
+		"name": "泰兰德",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 788,
+		"englishName": "Demon Fall Canyon",
+		"locale": "zhCN",
+		"name": "屠魔山谷",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 790,
+		"englishName": "Illidan",
+		"locale": "zhCN",
+		"name": "伊利丹",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 791,
+		"englishName": "Moonglade",
+		"locale": "zhCN",
+		"name": "月光林地",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 792,
+		"englishName": "Temple of Elune",
+		"locale": "zhCN",
+		"name": "月神殿",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 793,
+		"englishName": "Warsong",
+		"locale": "zhCN",
+		"name": "战歌",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 794,
+		"englishName": "The Master's Glaive",
+		"locale": "zhCN",
+		"name": "主宰之剑",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 797,
+		"englishName": "Eldre'Thalas",
+		"locale": "zhCN",
+		"name": "埃德萨拉",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 799,
+		"englishName": "Bleeding Hollow",
+		"locale": "zhCN",
+		"name": "血环",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 800,
+		"englishName": "Blackmoore",
+		"locale": "zhCN",
+		"name": "布莱克摩",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 802,
+		"englishName": "Durotan",
+		"locale": "zhCN",
+		"name": "杜隆坦",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 803,
+		"englishName": "Runetotem",
+		"locale": "zhCN",
+		"name": "符文图腾",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 804,
+		"englishName": "Dreadmist Peak",
+		"locale": "zhCN",
+		"name": "鬼雾峰",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 805,
+		"englishName": "Darkspear",
+		"locale": "zhCN",
+		"name": "黑暗之矛",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 806,
+		"englishName": "Alexstrasza",
+		"locale": "zhCN",
+		"name": "红龙女王",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 807,
+		"englishName": "Red Cloud Mesa",
+		"locale": "zhCN",
+		"name": "红云台地",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 808,
+		"englishName": "Gold Road",
+		"locale": "zhCN",
+		"name": "黄金之路",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 810,
+		"englishName": "Fire Plume Ridge",
+		"locale": "zhCN",
+		"name": "火羽山",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 812,
+		"englishName": "Garona",
+		"locale": "zhCN",
+		"name": "迦罗娜",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 814,
+		"englishName": "Bloodhoof",
+		"locale": "zhCN",
+		"name": "凯恩血蹄",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 815,
+		"englishName": "Windshear Crag",
+		"locale": "zhCN",
+		"name": "狂风峭壁",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 816,
+		"englishName": "Thunder Axe Fortress",
+		"locale": "zhCN",
+		"name": "雷斧堡垒",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 817,
+		"englishName": "Rexxar",
+		"locale": "zhCN",
+		"name": "雷克萨",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 818,
+		"englishName": "Thunderhorn",
+		"locale": "zhCN",
+		"name": "雷霆号角",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 822,
+		"englishName": "Malygos",
+		"locale": "zhCN",
+		"name": "玛里苟斯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 825,
+		"englishName": "Nazjatar",
+		"locale": "zhCN",
+		"name": "纳沙塔尔",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 826,
+		"englishName": "Nozdormu",
+		"locale": "zhCN",
+		"name": "诺兹多姆",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 827,
+		"englishName": "Proudmoore",
+		"locale": "zhCN",
+		"name": "普罗德摩",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 828,
+		"englishName": "Thousand Needles",
+		"locale": "zhCN",
+		"name": "千针石林",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 829,
+		"englishName": "Burning Blade",
+		"locale": "zhCN",
+		"name": "燃烧之刃",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 830,
+		"englishName": "Thrall",
+		"locale": "zhCN",
+		"name": "萨尔",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 833,
+		"englishName": "Shrine of the Dormant Flame",
+		"locale": "zhCN",
+		"name": "圣火神殿",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 835,
+		"englishName": "Lushwater Oasis",
+		"locale": "zhCN",
+		"name": "甜水绿洲",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 837,
+		"englishName": "Vol'jin",
+		"locale": "zhCN",
+		"name": "沃金",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 838,
+		"englishName": "Pandaren",
+		"locale": "zhCN",
+		"name": "熊猫酒仙",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 839,
+		"englishName": "Gorefiend",
+		"locale": "zhCN",
+		"name": "血牙魔王",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 840,
+		"englishName": "Fray Island",
+		"locale": "zhCN",
+		"name": "勇士岛",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 841,
+		"englishName": "Feathermoon",
+		"locale": "zhCN",
+		"name": "羽月",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 842,
+		"englishName": "Azjol-Nerub",
+		"locale": "zhCN",
+		"name": "蜘蛛王国",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 843,
+		"englishName": "Freewind",
+		"locale": "zhCN",
+		"name": "自由之风",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 844,
+		"englishName": "Arthas",
+		"locale": "zhCN",
+		"name": "阿尔萨斯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 845,
+		"englishName": "Arathor",
+		"locale": "zhCN",
+		"name": "阿拉索",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 846,
+		"englishName": "Eredar",
+		"locale": "zhCN",
+		"name": "埃雷达尔",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 847,
+		"englishName": "Eonar",
+		"locale": "zhCN",
+		"name": "艾欧纳尔",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 848,
+		"englishName": "Antonidas",
+		"locale": "zhCN",
+		"name": "安东尼达斯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 849,
+		"englishName": "Shadow Council",
+		"locale": "zhCN",
+		"name": "暗影议会",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 850,
+		"englishName": "Alterac Mountains",
+		"locale": "zhCN",
+		"name": "奥特兰克",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 851,
+		"englishName": "Baelgun",
+		"locale": "zhCN",
+		"name": "巴尔古恩",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 852,
+		"englishName": "Chillwind Point",
+		"locale": "zhCN",
+		"name": "冰风岗",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 855,
+		"englishName": "Darrowmere",
+		"locale": "zhCN",
+		"name": "达隆米尔",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 856,
+		"englishName": "Whispering Shore",
+		"locale": "zhCN",
+		"name": "耳语海岸",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 857,
+		"englishName": "Gul'dan",
+		"locale": "zhCN",
+		"name": "古尔丹",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 858,
+		"englishName": "Icecrown",
+		"locale": "zhCN",
+		"name": "寒冰皇冠",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 859,
+		"englishName": "Kil'Jaeden",
+		"locale": "zhCN",
+		"name": "基尔加丹",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 860,
+		"englishName": "Stromgarde Keep",
+		"locale": "zhCN",
+		"name": "激流堡",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 861,
+		"englishName": "Dragonmaw",
+		"locale": "zhCN",
+		"name": "巨龙之吼",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 862,
+		"englishName": "Cleft of Shadow",
+		"locale": "zhCN",
+		"name": "暗影裂口",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 863,
+		"englishName": "Kael'thas",
+		"locale": "zhCN",
+		"name": "凯尔萨斯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 864,
+		"englishName": "Kel'Thuzad",
+		"locale": "zhCN",
+		"name": "克尔苏加德",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 865,
+		"englishName": "Ragnaros",
+		"locale": "zhCN",
+		"name": "拉格纳洛斯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 866,
+		"englishName": "Ahune",
+		"locale": "zhCN",
+		"name": "埃霍恩",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 867,
+		"englishName": "Bladefist",
+		"locale": "zhCN",
+		"name": "利刃之拳",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 869,
+		"englishName": "Mannoroth",
+		"locale": "zhCN",
+		"name": "玛诺洛斯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 870,
+		"englishName": "Medivh",
+		"locale": "zhCN",
+		"name": "麦迪文",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 872,
+		"englishName": "Ner'zhul",
+		"locale": "zhCN",
+		"name": "耐奥祖",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 874,
+		"englishName": "Rivendare",
+		"locale": "zhCN",
+		"name": "瑞文戴尔",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 876,
+		"englishName": "Frostwolf",
+		"locale": "zhCN",
+		"name": "霜狼",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 877,
+		"englishName": "Frostmourne",
+		"locale": "zhCN",
+		"name": "霜之哀伤",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 878,
+		"englishName": "Stratholme",
+		"locale": "zhCN",
+		"name": "斯坦索姆",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 879,
+		"englishName": "Tarren Mill",
+		"locale": "zhCN",
+		"name": "塔伦米尔",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 882,
+		"englishName": "Tirisfal Glades",
+		"locale": "zhCN",
+		"name": "提瑞斯法",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 883,
+		"englishName": "Scholomance",
+		"locale": "zhCN",
+		"name": "通灵学院",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 885,
+		"englishName": "Sylvanas",
+		"locale": "zhCN",
+		"name": "希尔瓦娜斯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 886,
+		"englishName": "Scarlet Crusade",
+		"locale": "zhCN",
+		"name": "血色十字军",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 887,
+		"englishName": "The Forgotten Coast",
+		"locale": "zhCN",
+		"name": "遗忘海岸",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 888,
+		"englishName": "Silverpine Forest",
+		"locale": "zhCN",
+		"name": "银松森林",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 889,
+		"englishName": "Silvermoon",
+		"locale": "zhCN",
+		"name": "银月",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 890,
+		"englishName": "Aerie Peak",
+		"locale": "zhCN",
+		"name": "鹰巢山",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 891,
+		"englishName": "Shadowfang Keep",
+		"locale": "zhCN",
+		"name": "影牙要塞",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 915,
+		"englishName": "Zealot Blade",
+		"locale": "zhCN",
+		"name": "狂热之刃",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 916,
+		"englishName": "Cassandra",
+		"locale": "zhCN",
+		"name": "卡珊德拉",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 917,
+		"englishName": "Swiftwind",
+		"locale": "zhCN",
+		"name": "迅捷微风",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 918,
+		"englishName": "Guardian Blade",
+		"locale": "zhCN",
+		"name": "守护之剑",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 920,
+		"englishName": "Demonslayer",
+		"locale": "zhCN",
+		"name": "斩魔者",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 921,
+		"englishName": "Blanchard",
+		"locale": "zhCN",
+		"name": "布兰卡德",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 922,
+		"englishName": "World Tree",
+		"locale": "zhCN",
+		"name": "世界之树",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 924,
+		"englishName": "Direwing",
+		"locale": "zhCN",
+		"name": "恶魔之翼",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 925,
+		"englishName": "Keleidoscope Star",
+		"locale": "zhCN",
+		"name": "万色星辰",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 926,
+		"englishName": "River Pride",
+		"locale": "zhCN",
+		"name": "激流之傲",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 927,
+		"englishName": "Gazlowe",
+		"locale": "zhCN",
+		"name": "加兹鲁维",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 929,
+		"englishName": "Sutarn",
+		"locale": "zhCN",
+		"name": "苏塔恩",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 930,
+		"englishName": "Deepfury",
+		"locale": "zhCN",
+		"name": "大地之怒",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 931,
+		"englishName": "Wing of the Whelping",
+		"locale": "zhCN",
+		"name": "雏龙之翼",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 932,
+		"englishName": "Dark Phantom",
+		"locale": "zhCN",
+		"name": "黑暗魅影",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 933,
+		"englishName": "Dreamwalker",
+		"locale": "zhCN",
+		"name": "踏梦者",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 938,
+		"englishName": "Rangers",
+		"locale": "zhCN",
+		"name": "密林游侠",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 940,
+		"englishName": "Isillien",
+		"locale": "zhCN",
+		"name": "伊森利恩",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 941,
+		"englishName": "Holy Chanter",
+		"locale": "zhCN",
+		"name": "神圣之歌",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 943,
+		"englishName": "Duskwood",
+		"locale": "zhCN",
+		"name": "暮色森林",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 944,
+		"englishName": "Force of Elemental",
+		"locale": "zhCN",
+		"name": "元素之力",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 946,
+		"englishName": "Sundown Marsh",
+		"locale": "zhCN",
+		"name": "日落沼泽",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 949,
+		"englishName": "Fenris",
+		"locale": "zhCN",
+		"name": "芬里斯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 951,
+		"englishName": "Itharius",
+		"locale": "zhCN",
+		"name": "伊萨里奥斯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 953,
+		"englishName": "Storm Eye",
+		"locale": "zhCN",
+		"name": "风暴之眼",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 954,
+		"englishName": "Tyr's Hand",
+		"locale": "zhCN",
+		"name": "提尔之手",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 956,
+		"englishName": "Nighthaven",
+		"locale": "zhCN",
+		"name": "永夜港",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 959,
+		"englishName": "Dor'Danil",
+		"locale": "zhCN",
+		"name": "朵丹尼尔",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 960,
+		"englishName": "Falathim",
+		"locale": "zhCN",
+		"name": "法拉希姆",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 962,
+		"englishName": "The Golden Plains",
+		"locale": "zhCN",
+		"name": "金色平原",
+		"region": "CN",
+		"rules": "RP",
+		"timezone": "CST"
+	},
+	{
+		"id": 1198,
+		"englishName": "Ahn'Qiraj",
+		"locale": "zhCN",
+		"name": "安其拉",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1199,
+		"englishName": "Anetheron",
+		"locale": "zhCN",
+		"name": "安纳塞隆",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1200,
+		"englishName": "Anub'arak",
+		"locale": "zhCN",
+		"name": "阿努巴拉克",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1201,
+		"englishName": "Arathi",
+		"locale": "zhCN",
+		"name": "阿拉希",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1202,
+		"englishName": "Varimathras",
+		"locale": "zhCN",
+		"name": "瓦里玛萨斯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1203,
+		"englishName": "Balnazzar",
+		"locale": "zhCN",
+		"name": "巴纳扎尔",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1204,
+		"englishName": "Blackhand",
+		"locale": "zhCN",
+		"name": "黑手军团",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1205,
+		"englishName": "Bloodfeather",
+		"locale": "zhCN",
+		"name": "血羽",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1206,
+		"englishName": "Burning Legion",
+		"locale": "zhCN",
+		"name": "燃烧军团",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1207,
+		"englishName": "Chromaggus",
+		"locale": "zhCN",
+		"name": "克洛玛古斯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1208,
+		"englishName": "Crushridge",
+		"locale": "zhCN",
+		"name": "破碎岭",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1209,
+		"englishName": "C'Thun",
+		"locale": "zhCN",
+		"name": "克苏恩",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1210,
+		"englishName": "Anachronos",
+		"locale": "zhCN",
+		"name": "阿纳克洛斯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1211,
+		"englishName": "Thunder Bluff",
+		"locale": "zhCN",
+		"name": "雷霆之怒",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1212,
+		"englishName": "Thunderaan",
+		"locale": "zhCN",
+		"name": "桑德兰",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1213,
+		"englishName": "Blackwing Lair",
+		"locale": "zhCN",
+		"name": "黑翼之巢",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1214,
+		"englishName": "Draenor",
+		"locale": "zhCN",
+		"name": "德拉诺",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1215,
+		"englishName": "Dragonblight",
+		"locale": "zhCN",
+		"name": "龙骨平原",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1216,
+		"englishName": "Karazhan",
+		"locale": "zhCN",
+		"name": "卡拉赞",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1221,
+		"englishName": "Molten Core",
+		"locale": "zhCN",
+		"name": "熔火之心",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1222,
+		"englishName": "Grim Batol",
+		"locale": "zhCN",
+		"name": "格瑞姆巴托",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1223,
+		"englishName": "Gurubashi",
+		"locale": "zhCN",
+		"name": "古拉巴什",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1224,
+		"englishName": "Hakkar",
+		"locale": "zhCN",
+		"name": "哈卡",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1225,
+		"englishName": "Hectae",
+		"locale": "zhCN",
+		"name": "海克泰尔",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1226,
+		"englishName": "Kul Tiras",
+		"locale": "zhCN",
+		"name": "库尔提拉斯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1227,
+		"englishName": "Lordaeron",
+		"locale": "zhCN",
+		"name": "洛丹伦",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1228,
+		"englishName": "Nefarian",
+		"locale": "zhCN",
+		"name": "奈法利安",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1229,
+		"englishName": "Quel'Thalas",
+		"locale": "zhCN",
+		"name": "奎尔萨拉斯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1230,
+		"englishName": "Rajaxx",
+		"locale": "zhCN",
+		"name": "拉贾克斯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1231,
+		"englishName": "Ravenholdt",
+		"locale": "zhCN",
+		"name": "拉文霍德",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1232,
+		"englishName": "Sen'jin",
+		"locale": "zhCN",
+		"name": "森金",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1233,
+		"englishName": "Staghelm",
+		"locale": "zhCN",
+		"name": "范达尔鹿盔",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1234,
+		"englishName": "Taerar",
+		"locale": "zhCN",
+		"name": "泰拉尔",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1235,
+		"englishName": "Vaelastrasz",
+		"locale": "zhCN",
+		"name": "瓦拉斯塔兹",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1236,
+		"englishName": "Well of Eternity",
+		"locale": "zhCN",
+		"name": "永恒之井",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1237,
+		"englishName": "Hydraxis",
+		"locale": "zhCN",
+		"name": "海达希亚",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1238,
+		"englishName": "Sapphiron",
+		"locale": "zhCN",
+		"name": "萨菲隆",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1239,
+		"englishName": "Naxxramas",
+		"locale": "zhCN",
+		"name": "纳克萨玛斯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1240,
+		"englishName": "The Great Sea",
+		"locale": "zhCN",
+		"name": "无尽之海",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1241,
+		"englishName": "Lethon",
+		"locale": "zhCN",
+		"name": "莱索恩",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1482,
+		"englishName": "Akama",
+		"locale": "zhCN",
+		"name": "阿卡玛",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1483,
+		"englishName": "Archaedas",
+		"locale": "zhCN",
+		"name": "阿扎达斯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1484,
+		"englishName": "Ashenvale",
+		"locale": "zhCN",
+		"name": "灰谷",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1485,
+		"englishName": "Aviana",
+		"locale": "zhCN",
+		"name": "艾维娜",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1486,
+		"englishName": "Barthilas",
+		"locale": "zhCN",
+		"name": "巴瑟拉斯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1487,
+		"englishName": "Bloodscalp",
+		"locale": "zhCN",
+		"name": "血顶",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1488,
+		"englishName": "Grimtotem",
+		"locale": "zhCN",
+		"name": "恐怖图腾",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1489,
+		"englishName": "Cho'gall",
+		"locale": "zhCN",
+		"name": "古加尔",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1490,
+		"englishName": "Dalvengyr",
+		"locale": "zhCN",
+		"name": "达文格尔",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1491,
+		"englishName": "Dark Iron",
+		"locale": "zhCN",
+		"name": "黑铁",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1492,
+		"englishName": "Demon Soul",
+		"locale": "zhCN",
+		"name": "恶魔之魂",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1493,
+		"englishName": "Detheroc",
+		"locale": "zhCN",
+		"name": "迪瑟洛克",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1494,
+		"englishName": "Dun Modr",
+		"locale": "zhCN",
+		"name": "丹莫德",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1495,
+		"englishName": "Emeriss",
+		"locale": "zhCN",
+		"name": "艾莫莉丝",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1496,
+		"englishName": "Executus",
+		"locale": "zhCN",
+		"name": "埃克索图斯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1497,
+		"englishName": "Feralas",
+		"locale": "zhCN",
+		"name": "菲拉斯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1498,
+		"englishName": "Gadgetzan",
+		"locale": "zhCN",
+		"name": "加基森",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1499,
+		"englishName": "Garithos",
+		"locale": "zhCN",
+		"name": "加里索斯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1500,
+		"englishName": "Greymane",
+		"locale": "zhCN",
+		"name": "格雷迈恩",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1501,
+		"englishName": "Brann",
+		"locale": "zhCN",
+		"name": "布莱恩",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1502,
+		"englishName": "Immol'thar",
+		"locale": "zhCN",
+		"name": "伊莫塔尔",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1503,
+		"englishName": "Maelstrom",
+		"locale": "zhCN",
+		"name": "大漩涡",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1504,
+		"englishName": "Northrend",
+		"locale": "zhCN",
+		"name": "诺森德",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1505,
+		"englishName": "Onyxia",
+		"locale": "zhCN",
+		"name": "奥妮克希亚",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1506,
+		"englishName": "Ossirian",
+		"locale": "zhCN",
+		"name": "奥斯里安",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1507,
+		"englishName": "Outland",
+		"locale": "zhCN",
+		"name": "外域",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1508,
+		"englishName": "Skywall",
+		"locale": "zhCN",
+		"name": "天空之墙",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1509,
+		"englishName": "Stormscale",
+		"locale": "zhCN",
+		"name": "风暴之鳞",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1510,
+		"englishName": "Stranglethorn",
+		"locale": "zhCN",
+		"name": "荆棘谷",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1511,
+		"englishName": "Sunstrider",
+		"locale": "zhCN",
+		"name": "逐日者",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1512,
+		"englishName": "Tanaris",
+		"locale": "zhCN",
+		"name": "塔纳利斯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1513,
+		"englishName": "Theradras",
+		"locale": "zhCN",
+		"name": "瑟莱德丝",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1514,
+		"englishName": "Therazane",
+		"locale": "zhCN",
+		"name": "塞拉赞恩",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1515,
+		"englishName": "Tortheldrin",
+		"locale": "zhCN",
+		"name": "托塞德林",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1516,
+		"englishName": "Twisting Nether",
+		"locale": "zhCN",
+		"name": "黑暗虚空",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1517,
+		"englishName": "Un'goro",
+		"locale": "zhCN",
+		"name": "安戈洛",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1519,
+		"englishName": "Zul'jin",
+		"locale": "zhCN",
+		"name": "祖尔金",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1520,
+		"englishName": "Twin Peaks",
+		"locale": "zhCN",
+		"name": "双子峰",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1524,
+		"englishName": "Wrath Gate",
+		"locale": "zhCN",
+		"name": "天谴之门",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1657,
+		"englishName": "Boulderfist",
+		"locale": "zhCN",
+		"name": "冰川之拳",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1658,
+		"englishName": "Daggerspine",
+		"locale": "zhCN",
+		"name": "刺骨利刃",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1659,
+		"englishName": "Deephome",
+		"locale": "zhCN",
+		"name": "深渊之巢",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1660,
+		"englishName": "Akil'zon",
+		"locale": "zhCN",
+		"name": "埃基尔松",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1662,
+		"englishName": "Dustbelcher",
+		"locale": "zhCN",
+		"name": "火烟之谷",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1663,
+		"englishName": "Eranikus",
+		"locale": "zhCN",
+		"name": "伊兰尼库斯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1664,
+		"englishName": "Firegut",
+		"locale": "zhCN",
+		"name": "火喉",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1666,
+		"englishName": "Winterchill",
+		"locale": "zhCN",
+		"name": "冬寒",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1667,
+		"englishName": "Jammal'an",
+		"locale": "zhCN",
+		"name": "迦玛兰",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1668,
+		"englishName": "Jin'do",
+		"locale": "zhCN",
+		"name": "金度",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1670,
+		"englishName": "Lich King",
+		"locale": "zhCN",
+		"name": "巫妖之王",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1672,
+		"englishName": "Menethil",
+		"locale": "zhCN",
+		"name": "米奈希尔",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1676,
+		"englishName": "The Underbog",
+		"locale": "zhCN",
+		"name": "幽暗沼泽",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1681,
+		"englishName": "Smolderthorn",
+		"locale": "zhCN",
+		"name": "烈焰荆棘",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1682,
+		"englishName": "Soulflayer",
+		"locale": "zhCN",
+		"name": "夺灵者",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1685,
+		"englishName": "Stonemaul",
+		"locale": "zhCN",
+		"name": "石锤",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1687,
+		"englishName": "Theramore",
+		"locale": "zhCN",
+		"name": "塞拉摩",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1692,
+		"englishName": "Ozumat",
+		"locale": "zhCN",
+		"name": "厄祖玛特",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1693,
+		"englishName": "Winterspring",
+		"locale": "zhCN",
+		"name": "冬泉谷",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1694,
+		"englishName": "Ysondre",
+		"locale": "zhCN",
+		"name": "伊森德雷",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1695,
+		"englishName": "Zalazane",
+		"locale": "zhCN",
+		"name": "扎拉赞恩",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1696,
+		"englishName": "Arygos",
+		"locale": "zhCN",
+		"name": "亚雷戈斯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1793,
+		"englishName": "Abyssal Maw",
+		"locale": "zhCN",
+		"name": "深渊之喉",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1794,
+		"englishName": "Al'ar",
+		"locale": "zhCN",
+		"name": "凤凰之神",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1795,
+		"englishName": "Argus",
+		"locale": "zhCN",
+		"name": "阿古斯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1796,
+		"englishName": "Auchindoun",
+		"locale": "zhCN",
+		"name": "奥金顿",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1797,
+		"englishName": "Bladespire",
+		"locale": "zhCN",
+		"name": "刀塔",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1798,
+		"englishName": "Blood Furnace",
+		"locale": "zhCN",
+		"name": "鲜血熔炉",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1801,
+		"englishName": "Dark Portal",
+		"locale": "zhCN",
+		"name": "黑暗之门",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1802,
+		"englishName": "Deathforge",
+		"locale": "zhCN",
+		"name": "死亡熔炉",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1803,
+		"englishName": "Abyssal Depths",
+		"locale": "zhCN",
+		"name": "无底海渊",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1807,
+		"englishName": "Gruul",
+		"locale": "zhCN",
+		"name": "格鲁尔",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1808,
+		"englishName": "Halaa",
+		"locale": "zhCN",
+		"name": "哈兰",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1809,
+		"englishName": "Legion Hold",
+		"locale": "zhCN",
+		"name": "军团要塞",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1810,
+		"englishName": "Maim",
+		"locale": "zhCN",
+		"name": "麦姆",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1812,
+		"englishName": "Elnue",
+		"locale": "zhCN",
+		"name": "艾露恩",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1813,
+		"englishName": "Mogor",
+		"locale": "zhCN",
+		"name": "穆戈尔",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1815,
+		"englishName": "Murmur",
+		"locale": "zhCN",
+		"name": "摩摩尔",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1817,
+		"englishName": "Ring of Trials",
+		"locale": "zhCN",
+		"name": "试炼之环",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1818,
+		"englishName": "Rommath",
+		"locale": "zhCN",
+		"name": "罗曼斯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1819,
+		"englishName": "Searinox",
+		"locale": "zhCN",
+		"name": "希雷诺斯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1820,
+		"englishName": "Sethekk",
+		"locale": "zhCN",
+		"name": "塞泰克",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1821,
+		"englishName": "Shadow Labyrinth",
+		"locale": "zhCN",
+		"name": "暗影迷宫",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1823,
+		"englishName": "Tol Barad",
+		"locale": "zhCN",
+		"name": "托尔巴拉德",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1824,
+		"englishName": "Sunwell",
+		"locale": "zhCN",
+		"name": "太阳之井",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1827,
+		"englishName": "Doom's Vigil",
+		"locale": "zhCN",
+		"name": "末日祷告祭坛",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1828,
+		"englishName": "VanCleef",
+		"locale": "zhCN",
+		"name": "范克里夫",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1829,
+		"englishName": "Vashj",
+		"locale": "zhCN",
+		"name": "瓦丝琪",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1830,
+		"englishName": "Zul'Aman",
+		"locale": "zhCN",
+		"name": "祖阿曼",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1831,
+		"englishName": "Zul'Drak",
+		"locale": "zhCN",
+		"name": "祖达克",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1832,
+		"englishName": "Emerald Dream",
+		"locale": "zhCN",
+		"name": "翡翠梦境",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1931,
+		"englishName": "Abbendis",
+		"locale": "zhCN",
+		"name": "阿比迪斯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1932,
+		"englishName": "Amani",
+		"locale": "zhCN",
+		"name": "阿曼尼",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1933,
+		"englishName": "Anzu",
+		"locale": "zhCN",
+		"name": "安苏",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1934,
+		"englishName": "The Botanica",
+		"locale": "zhCN",
+		"name": "生态船",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1935,
+		"englishName": "Astalor",
+		"locale": "zhCN",
+		"name": "阿斯塔洛",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1936,
+		"englishName": "Bone Wastes",
+		"locale": "zhCN",
+		"name": "白骨荒野",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1937,
+		"englishName": "Brutallus",
+		"locale": "zhCN",
+		"name": "布鲁塔卢斯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1938,
+		"englishName": "Dar'Khan",
+		"locale": "zhCN",
+		"name": "达尔坎",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1939,
+		"englishName": "Doomwalker",
+		"locale": "zhCN",
+		"name": "末日行者",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1940,
+		"englishName": "Drakkisath",
+		"locale": "zhCN",
+		"name": "达基萨斯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1941,
+		"englishName": "Entropius",
+		"locale": "zhCN",
+		"name": "熵魔",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1942,
+		"englishName": "The Mechanar",
+		"locale": "zhCN",
+		"name": "能源舰",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1943,
+		"englishName": "Felmyst",
+		"locale": "zhCN",
+		"name": "菲米丝",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1944,
+		"englishName": "Garr",
+		"locale": "zhCN",
+		"name": "加尔",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1945,
+		"englishName": "Geddon",
+		"locale": "zhCN",
+		"name": "迦顿",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1946,
+		"englishName": "Gorehowl",
+		"locale": "zhCN",
+		"name": "血吼",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1947,
+		"englishName": "Gothik",
+		"locale": "zhCN",
+		"name": "戈提克",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1948,
+		"englishName": "Gyph",
+		"locale": "zhCN",
+		"name": "盖斯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1949,
+		"englishName": "Hearthglen",
+		"locale": "zhCN",
+		"name": "壁炉谷",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1950,
+		"englishName": "Barrens",
+		"locale": "zhCN",
+		"name": "贫瘠之地",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1955,
+		"englishName": "Hogger",
+		"locale": "zhCN",
+		"name": "霍格",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1965,
+		"englishName": "Que'Danis",
+		"locale": "zhCN",
+		"name": "奎尔丹纳斯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1969,
+		"englishName": "Sacrolash",
+		"locale": "zhCN",
+		"name": "萨洛拉丝",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1970,
+		"englishName": "Sandfury",
+		"locale": "zhCN",
+		"name": "沙怒",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1971,
+		"englishName": "Howling Fjord",
+		"locale": "zhCN",
+		"name": "嚎风峡湾",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 1972,
+		"englishName": "Skettis",
+		"locale": "zhCN",
+		"name": "斯克提斯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 2118,
+		"englishName": "Galakrond",
+		"locale": "zhCN",
+		"name": "迦拉克隆",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 2119,
+		"englishName": "Ulduar",
+		"locale": "zhCN",
+		"name": "奥杜尔",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 2120,
+		"englishName": "Algalon",
+		"locale": "zhCN",
+		"name": "奥尔加隆",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 2121,
+		"englishName": "Angerboda",
+		"locale": "zhCN",
+		"name": "安格博达",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 2122,
+		"englishName": "Angrathar",
+		"locale": "zhCN",
+		"name": "安加萨",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 2123,
+		"englishName": "Deathweaver",
+		"locale": "zhCN",
+		"name": "织亡者",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 2124,
+		"englishName": "Deathwhisper",
+		"locale": "zhCN",
+		"name": "亡语者",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 2125,
+		"englishName": "Drak'Tharon",
+		"locale": "zhCN",
+		"name": "达克萨隆",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 2126,
+		"englishName": "Ebon Watch",
+		"locale": "zhCN",
+		"name": "黑锋哨站",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 2127,
+		"englishName": "Gundrak",
+		"locale": "zhCN",
+		"name": "古达克",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 2128,
+		"englishName": "Lana'thel",
+		"locale": "zhCN",
+		"name": "兰娜瑟尔",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 2129,
+		"englishName": "Loken",
+		"locale": "zhCN",
+		"name": "洛肯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 2130,
+		"englishName": "Marrowgar",
+		"locale": "zhCN",
+		"name": "玛洛加尔",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 2133,
+		"englishName": "Shadowmourne",
+		"locale": "zhCN",
+		"name": "影之哀伤",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 2134,
+		"englishName": "Storm Peaks",
+		"locale": "zhCN",
+		"name": "风暴峭壁",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 2135,
+		"englishName": "Strand of the Ancients",
+		"locale": "zhCN",
+		"name": "远古海滩",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 2136,
+		"englishName": "Valanar",
+		"locale": "zhCN",
+		"name": "瓦拉纳",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 2137,
+		"englishName": "Wintergrasp",
+		"locale": "zhCN",
+		"name": "冬拥湖",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 3751,
+		"englishName": "Li Li",
+		"locale": "zhCN",
+		"name": "丽丽（四川)",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 3752,
+		"englishName": "Peak of Serenity",
+		"locale": "zhCN",
+		"name": "晴日峰（江苏)",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 3755,
+		"englishName": "Sindragosa",
+		"locale": "zhCN",
+		"name": "辛达苟萨",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 3757,
+		"englishName": "Caverns of Time",
+		"locale": "zhCN",
+		"name": "时光之穴",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 3941,
+		"englishName": "Suramar",
+		"locale": "zhCN",
+		"name": "苏拉玛",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 3944,
+		"englishName": "Varian",
+		"locale": "zhCN",
+		"name": "瓦里安",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 4497,
+		"englishName": "Azurelode Mine",
+		"locale": "zhCN",
+		"name": "碧玉矿洞",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 4498,
+		"englishName": "Coldridge Pass",
+		"locale": "zhCN",
+		"name": "寒脊山小径",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 4499,
+		"englishName": "Atiesh",
+		"locale": "zhCN",
+		"name": "埃提耶什",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4500,
+		"englishName": "Dragon's Call",
+		"locale": "zhCN",
+		"name": "龙之召唤",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4501,
+		"englishName": "Gandling",
+		"locale": "zhCN",
+		"name": "加丁",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4509,
+		"englishName": "Huhuran",
+		"locale": "zhCN",
+		"name": "哈霍兰",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4510,
+		"englishName": "Ouro",
+		"locale": "zhCN",
+		"name": "奥罗",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4511,
+		"englishName": "Sartura",
+		"locale": "zhCN",
+		"name": "沙尔图拉",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4512,
+		"englishName": "Mograine",
+		"locale": "zhCN",
+		"name": "莫格莱尼",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4513,
+		"englishName": "Heigan",
+		"locale": "zhCN",
+		"name": "希尔盖",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4520,
+		"englishName": "The Dagger Hills",
+		"locale": "zhCN",
+		"name": "匕首岭",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 4521,
+		"englishName": "Dire Maul",
+		"locale": "zhCN",
+		"name": "厄运之槌",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 4522,
+		"englishName": "Thunderstrike",
+		"locale": "zhCN",
+		"name": "雷霆之击",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4523,
+		"englishName": "Fairbanks",
+		"locale": "zhCN",
+		"name": "法尔班克斯",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4524,
+		"englishName": "Herod",
+		"locale": "zhCN",
+		"name": "赫洛德",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4531,
+		"englishName": "Buru",
+		"locale": "zhCN",
+		"name": "吞咽者",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4532,
+		"englishName": "Fankriss",
+		"locale": "zhCN",
+		"name": "范克瑞斯",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4533,
+		"englishName": "Viscidus",
+		"locale": "zhCN",
+		"name": "维希度斯",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4534,
+		"englishName": "Patchwerk",
+		"locale": "zhCN",
+		"name": "帕奇维克",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4535,
+		"englishName": "Bigglesworth",
+		"locale": "zhCN",
+		"name": "比格沃斯",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4674,
+		"englishName": "Timbermaw Hold",
+		"locale": "zhCN",
+		"name": "木喉要塞",
+		"region": "CN",
+		"rules": "RP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4675,
+		"englishName": "Syndicate",
+		"locale": "zhCN",
+		"name": "辛迪加",
+		"region": "CN",
+		"rules": "PvP RP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4707,
+		"englishName": "Frostwhisper",
+		"locale": "zhCN",
+		"name": "霜语",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4708,
+		"englishName": "Crystal Fang",
+		"locale": "zhCN",
+		"name": "水晶之牙",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4709,
+		"englishName": "Vek'lor",
+		"locale": "zhCN",
+		"name": "维克洛尔",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4710,
+		"englishName": "Vek'nilash",
+		"locale": "zhCN",
+		"name": "维克尼拉斯",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4711,
+		"englishName": "Barov",
+		"locale": "zhCN",
+		"name": "巴罗夫",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4712,
+		"englishName": "The Beast",
+		"locale": "zhCN",
+		"name": "比斯巨兽",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4767,
+		"englishName": "Noggenfogger",
+		"locale": "zhCN",
+		"name": "诺格弗格",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4768,
+		"englishName": "Perdition's Blade",
+		"locale": "zhCN",
+		"name": "毁灭之刃",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4769,
+		"englishName": "Obsidian Edge",
+		"locale": "zhCN",
+		"name": "黑曜石之锋",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4770,
+		"englishName": "Sulfuras",
+		"locale": "zhCN",
+		"name": "萨弗拉斯",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4771,
+		"englishName": "Rhok'delar",
+		"locale": "zhCN",
+		"name": "伦鲁迪洛尔",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4772,
+		"englishName": "Ashbringer",
+		"locale": "zhCN",
+		"name": "灰烬使者",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4773,
+		"englishName": "Whitemane",
+		"locale": "zhCN",
+		"name": "怀特迈恩",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4774,
+		"englishName": "Arcanite Reaper",
+		"locale": "zhCN",
+		"name": "奥金斧",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4775,
+		"englishName": "Skullflame",
+		"locale": "zhCN",
+		"name": "骨火",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4776,
+		"englishName": "Doom's Edge",
+		"locale": "zhCN",
+		"name": "末日之刃",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4777,
+		"englishName": "Earthshaker",
+		"locale": "zhCN",
+		"name": "震地者",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4778,
+		"englishName": "Benediction",
+		"locale": "zhCN",
+		"name": "祈福",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4779,
+		"englishName": "Zin'rokh",
+		"locale": "zhCN",
+		"name": "辛洛斯",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4780,
+		"englishName": "Heartseeker",
+		"locale": "zhCN",
+		"name": "觅心者",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4781,
+		"englishName": "Lionheart",
+		"locale": "zhCN",
+		"name": "狮心",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4782,
+		"englishName": "Judgement",
+		"locale": "zhCN",
+		"name": "审判",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4783,
+		"englishName": "Ten Storms",
+		"locale": "zhCN",
+		"name": "无尽风暴",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4784,
+		"englishName": "Dragonstalker",
+		"locale": "zhCN",
+		"name": "巨龙追猎者",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4785,
+		"englishName": "Netherwind",
+		"locale": "zhCN",
+		"name": "灵风",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4786,
+		"englishName": "Transcendence",
+		"locale": "zhCN",
+		"name": "卓越",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4787,
+		"englishName": "The Untamed Blade",
+		"locale": "zhCN",
+		"name": "狂野之刃",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4788,
+		"englishName": "Giantstalker",
+		"locale": "zhCN",
+		"name": "巨人追猎者",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4789,
+		"englishName": "Lawbringer",
+		"locale": "zhCN",
+		"name": "秩序之源",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4790,
+		"englishName": "Quel'Serrar",
+		"locale": "zhCN",
+		"name": "奎尔塞拉",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4791,
+		"englishName": "Azuresong",
+		"locale": "zhCN",
+		"name": "碧空之歌",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4792,
+		"englishName": "Ashkandi",
+		"locale": "zhCN",
+		"name": "阿什坎迪",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4818,
+		"englishName": "Ironara",
+		"locale": "zhCN",
+		"name": "艾隆纳亚",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4819,
+		"englishName": "Silverlaine",
+		"locale": "zhCN",
+		"name": "席瓦莱恩",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4820,
+		"englishName": "Firehammer",
+		"locale": "zhCN",
+		"name": "火锤",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4821,
+		"englishName": "Sandscalp",
+		"locale": "zhCN",
+		"name": "沙顶",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4822,
+		"englishName": "Dreamscythe",
+		"locale": "zhCN",
+		"name": "德姆塞卡尔",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4823,
+		"englishName": "Gizlock",
+		"locale": "zhCN",
+		"name": "吉兹洛克",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4824,
+		"englishName": "Angerforge",
+		"locale": "zhCN",
+		"name": "怒炉",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4825,
+		"englishName": "Phalanx",
+		"locale": "zhCN",
+		"name": "法拉克斯",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 4826,
+		"englishName": "Urok",
+		"locale": "zhCN",
+		"name": "乌洛克",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4827,
+		"englishName": "Dreadnaught",
+		"locale": "zhCN",
+		"name": "无畏",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4828,
+		"englishName": "Ramstein",
+		"locale": "zhCN",
+		"name": "拉姆斯登",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4829,
+		"englishName": "Anastari",
+		"locale": "zhCN",
+		"name": "安娜丝塔丽",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4830,
+		"englishName": "Noxxion",
+		"locale": "zhCN",
+		"name": "诺克赛恩",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4831,
+		"englishName": "Cerebras",
+		"locale": "zhCN",
+		"name": "塞雷布拉斯",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4832,
+		"englishName": "Rend",
+		"locale": "zhCN",
+		"name": "雷德",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4833,
+		"englishName": "Mandokir",
+		"locale": "zhCN",
+		"name": "曼多基尔",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4834,
+		"englishName": "Arlokk",
+		"locale": "zhCN",
+		"name": "娅尔罗",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4835,
+		"englishName": "Thekal",
+		"locale": "zhCN",
+		"name": "塞卡尔",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4836,
+		"englishName": "Maexxna",
+		"locale": "zhCN",
+		"name": "迈克斯纳",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4837,
+		"englishName": "VanHowzen",
+		"locale": "zhCN",
+		"name": "范沃森",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4847,
+		"englishName": "Flarecore",
+		"locale": "zhCN",
+		"name": "光芒",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4848,
+		"englishName": "Sulfuron",
+		"locale": "zhCN",
+		"name": "萨弗隆",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4849,
+		"englishName": "Viktori",
+		"locale": "zhCN",
+		"name": "维克托",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4913,
+		"englishName": "Coldbringer",
+		"locale": "zhCN",
+		"name": "寒冰之王",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4915,
+		"englishName": "Blaumeux",
+		"locale": "zhCN",
+		"name": "布劳缪克丝",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4919,
+		"englishName": "Arugal",
+		"locale": "zhCN",
+		"name": "阿鲁高",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4920,
+		"englishName": "Dragonfang",
+		"locale": "zhCN",
+		"name": "龙牙",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4923,
+		"englishName": "Flamelash",
+		"locale": "zhCN",
+		"name": "弗莱拉斯",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4924,
+		"englishName": "Faerlina",
+		"locale": "zhCN",
+		"name": "法琳娜",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4925,
+		"englishName": "Lakeshire",
+		"locale": "zhCN",
+		"name": "湖畔镇",
+		"region": "CN",
+		"rules": "PvE",
+		"timezone": "CST"
+	},
+	{
+		"id": 4926,
+		"englishName": "Chromie",
+		"locale": "zhCN",
+		"name": "克罗米",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4928,
+		"englishName": "Incendius",
+		"locale": "zhCN",
+		"name": "伊森迪奥斯",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4970,
+		"englishName": "Arathi Basin",
+		"locale": "zhCN",
+		"name": "阿拉希盆地",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4972,
+		"englishName": "Wyrmbog",
+		"locale": "zhCN",
+		"name": "巨龙沼泽",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4973,
+		"englishName": "Blackrock Mountain",
+		"locale": "zhCN",
+		"name": "黑石山",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4974,
+		"englishName": "Light's Hope",
+		"locale": "zhCN",
+		"name": "圣光之愿",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4975,
+		"englishName": "The Enchanted Glade",
+		"locale": "zhCN",
+		"name": "神谕林地",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4976,
+		"englishName": "Sandsorrow Watch",
+		"locale": "zhCN",
+		"name": "流沙岗哨",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4977,
+		"englishName": "The Scarab Wall",
+		"locale": "zhCN",
+		"name": "甲虫之墙",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	},
+	{
+		"id": 4978,
+		"englishName": "Zul'Gurub",
+		"locale": "zhCN",
+		"name": "祖尔格拉布",
+		"region": "CN",
+		"rules": "PvP",
+		"timezone": "CST"
+	}
+]

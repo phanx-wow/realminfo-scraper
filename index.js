@@ -3,9 +3,10 @@ require("dotenv").config()
 const fetch = require("node-fetch")
 const jsonfile = require("jsonfile")
 const fs = require("fs")
+const path = require("path")
 
 // Import local dependencies
-const { authDomains, authRegions, regions } = require("./constants")
+const { authDomains, authRegions, regions, namespaces } = require("./constants")
 const getConnectionsForRegion = require("./connections")
 const getRealmsForRegion = require("./realms")
 
@@ -22,6 +23,13 @@ const createOutputDir = async () => {
 	}
 }
 
+// Create cache directory
+const createCacheDir = async () => {
+	if (!await fs.existsSync("cache")) {
+		await fs.mkdirSync("cache")
+	}
+}
+
 // Get valid API access tokens for US and China
 const checkAccessToken = async (region, token) => {
 	const url = "https://" + authDomains[region] + "/oauth/check_token?token=" + token
@@ -31,12 +39,16 @@ const checkAccessToken = async (region, token) => {
 }
 
 const getAccessToken = async (region) => {
-	const url = "https://" + authDomains[region] + "/oauth/token"
-		+ "?grant_type=client_credentials"
-		+ "&client_id=" + apiKey
-		+ "&client_secret=" + clientSecret
+	const url = "https://" + apiKey + ":" + clientSecret + "@" + authDomains[region] + "/oauth/token"
 
-	const res = await fetch(url, { method: 'POST' })
+	const params = new URLSearchParams()
+	params.append('grant_type', 'client_credentials')
+
+	const res = await fetch(url, {
+		method: 'POST',
+		body: params
+	})
+
 	const json = await res.json()
 	if (json.error) return console.error("ERROR: error getting access token: " + json.error)
 	return json.access_token
@@ -45,7 +57,7 @@ const getAccessToken = async (region) => {
 const getAccessTokens = async () => {
 	let cached
 	try {
-		cached = jsonfile.readFileSync("output/accessToken.json", { throws: false })
+		cached = jsonfile.readFileSync("cache/accessToken.json", { throws: false })
 	} catch(e) {
 		// File not yet created
 	}
@@ -62,12 +74,12 @@ const getAccessTokens = async () => {
 		}
 	}
 
-	jsonfile.writeFileSync("output/accessToken.json", tokens)
+	jsonfile.writeFileSync("cache/accessToken.json", tokens)
 	return tokens
 }
 
 // Get an array listing all connected realm groups from all regions
-const getConnections = async (accessTokens) => {
+const getConnections = async (accessTokens, namespace) => {
 	const connections = []
 
 	console.log(" ")
@@ -76,7 +88,7 @@ const getConnections = async (accessTokens) => {
 	for (const region of regions) {
 		const authRegion = authRegions[region]
 		const accessToken = accessTokens[authRegion]
-		const regionConnections = await getConnectionsForRegion(accessToken, region)
+		const regionConnections = await getConnectionsForRegion(accessToken, region, namespace)
 		if (regionConnections) regionConnections.forEach(connection => connections.push(connection))
 	}
 
@@ -87,7 +99,7 @@ const getConnections = async (accessTokens) => {
 }
 
 // Get an array listing all realms from all regions
-const getRealms = async (accessTokens) => {
+const getRealms = async (accessTokens, namespace) => {
 	const realms = []
 
 	console.log(" ")
@@ -96,7 +108,7 @@ const getRealms = async (accessTokens) => {
 	for (const region of regions) {
 		const authRegion = authRegions[region]
 		const accessToken = accessTokens[authRegion]
-		const regionRealms = await getRealmsForRegion(accessToken, region)
+		const regionRealms = await getRealmsForRegion(accessToken, region, namespace)
 		if (regionRealms) regionRealms.forEach(realm => realms.push(realm))
 	}
 
@@ -122,21 +134,35 @@ async function main () {
 	console.log("API Key     :", apiKey)
 	console.log("API Secret  :", clientSecret ? "OK" : "MISSING")
 
-	await createOutputDir();
+	await createOutputDir()
+	await createCacheDir()
 
 	try {
 		const accessTokens = await getAccessTokens()
 		console.log("Access Tokens:", accessTokens)
 
-		const realmData = await getRealms(accessTokens)
-		if (!realmData) return console.log("ERROR: getRealms returned nothing")
-		writeJSON("output/realmData.json", realmData)
+		let realmData = []
+		let connectionData = []
 
-		const connectionData = await getConnections(accessTokens)
-		if (!connectionData) return console.log("ERROR: getRealms returned nothing")
-		writeJSON("output/connectionData.json", connectionData)
+		for (let namespace of Object.keys(namespaces)) {
+			const namespaceRealmData = await getRealms(accessTokens, namespace)
+			if (!namespaceRealmData) return console.log(`ERROR: getRealms returned nothing for namespace ${namespace}`)
+
+			const namespaceConnectionData = await getConnections(accessTokens, namespace)
+			if (!namespaceConnectionData) return console.log(`ERROR: getConnections returned nothing for namespace ${namespace}`)
+
+			realmData = realmData.concat(namespaceRealmData)
+			connectionData = connectionData.concat(namespaceConnectionData)
+		}
+
+		// The API for Chinese realms is not implemented: use static data instead.
+		realmData = realmData.concat(require("./data/realms-cn.json"))
+		connectionData = connectionData.concat(require("./data/connections-cn.json"))
+
+		writeJSON(`output/realmData.json`, realmData)
+		writeJSON(`output/connectionData.json`, connectionData)
 	} catch (e) {
-		console.error(e);
+		console.error(e)
 	}
 
 	console.log(" ")
