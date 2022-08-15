@@ -39,10 +39,9 @@ connectionData.sort(sortById).forEach(connection => {
 	let { id, region, realms } = connection
 	realms.sort((a, b) => a - b)
 	realms = [...realms.filter(realmId => realmId === id), ...realms.filter(realmId => realmId !== id)]
-	if (realms.length === 0) {
-		realms = [id]
+	if (realms.length > 0) {
+		output.push(`"${id},${region},${realms.join(",")}",`)
 	}
-	output.push(`"${id},${region},${realms.join(",")}",`)
 })
 
 output.push("}")
