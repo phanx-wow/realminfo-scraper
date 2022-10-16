@@ -1,25 +1,41 @@
 const fetch = require("node-fetch")
-const sleep = require("sleep").msleep
+const jsonfile = require("jsonfile")
+const fs = require("fs")
 
-const { SLEEP_TIME, apiDomains } = require("./constants.js")
+const { SLEEP_TIME, apiDomains, namespaces } = require("./constants.js")
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms))
 
 const getConnection = async (requestOptions, region, id) => {
-	sleep(SLEEP_TIME)
+	const filename = `cache/connection-${region}-${id}.json`
+
+	// Get JSON file from cache
+	if (fs.existsSync(filename)) {
+		return jsonfile.readFileSync(filename)
+	}
+
+	// Fetch new connection data
+	await sleep(SLEEP_TIME)
 
 	const url = "https://" + apiDomains[region] + "/data/wow/connected-realm/" + id
 	const res = await fetch(url, requestOptions)
 	const json = await res.json()
-	if (!json.realms) return console.log("ERROR: response missing realms:", json)
 
-	return {
+	if (!json.realms && json.code !== 404) return console.log("ERROR: response missing realms:", json)
+
+	const connectionData = {
 		id    : id,
 		region: region.toUpperCase(),
-		realms: json.realms.map(realm => realm.id),
+		realms: json.realms ? json.realms.map(realm => realm.id) : [],
 	}
+
+	jsonfile.writeFileSync(filename, connectionData, { spaces: "\t" }, (err) => console.error(err))
+
+	return connectionData
 }
 
 const getConnectionIDsForRegion = async (requestOptions, region) => {
-	sleep(SLEEP_TIME)
+	await sleep(SLEEP_TIME)
 
 	const url = "https://" + apiDomains[region] + "/data/wow/connected-realm/"
 	const res = await fetch(url, requestOptions)
@@ -32,12 +48,12 @@ const getConnectionIDsForRegion = async (requestOptions, region) => {
 	})
 }
 
-const getConnectionsForRegion = async (accessToken, region) => {
+const getConnectionsForRegion = async (accessToken, region, namespace) => {
 	const list = []
 	const requestOptions = {
 		headers: {
 			"Authorization": "Bearer " + accessToken,
-			"Battlenet-Namespace": "dynamic-" + region,
+			"Battlenet-Namespace": namespace + "-" + region,
 		}
 	}
 
